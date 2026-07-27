@@ -76,16 +76,6 @@ class APIService {
         return axios.post(BASE_URL + "bookings/my-bookings", data, { headers: this.getToken() })
     }
 
-    getBookingTrends(period) {
-        return axios.get(
-            `${BASE_URL}admin/charts/booking-trends`,
-            {
-                params: { period },
-                headers: this.getToken()
-            }
-        );
-    }
-
 
     getAllBooking() {
         return axios.get(BASE_URL + "admin/bookings/all", {

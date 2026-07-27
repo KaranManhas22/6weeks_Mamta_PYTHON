@@ -9,7 +9,7 @@ export default function AdminFooter() {
                     <div className="container py-2">
                         <div className="row g-5 justify-content-center">
                             <div className="d-flex justify-content-center text-white">
-                               &copy; Developed by Gurvinder Singh
+                               &copy; {new Date().getFullYear()} SmartBooking AI
                             </div>
                         </div>
                     </div>
