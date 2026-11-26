@@ -21,7 +21,7 @@ jobs:
           password: ${{secrets.PASSWORD}}
 
           script: |
-            cd /home/mamta/6weeks_Mamta_PYTHON
+            cd /home/ubuntu/6weeks_Mamta_PYTHON
             git pull origin main
             sudo npm i
             sudo npm run build
